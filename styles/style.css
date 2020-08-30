@@ -1,3 +1,25 @@
-body {
+h1 {
     color: red;
 }
+/* Grid 1 Section: Start */
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px
+}
+.d1 {
+    background-color: lightblue;
+}
+.d2 {
+    background-color: coral;
+}
+.d3 {
+    background-color: yellow;
+}
+.d4 {
+    background-color: lightgreen;
+}
+span {
+    color: red;
+    font-weight: 900;;
+}
+/* Grid 1 Section: End; */
