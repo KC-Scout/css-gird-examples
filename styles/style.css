@@ -1,10 +1,14 @@
 h1 {
     color: red;
 }
+h2 {
+    border: 3px dashed blue;
+}
 /* Grid 1 Section: Start */
 .container {
     display: grid;
-    grid-template-columns: 100px 100px
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 200px 200px;
 }
 .d1 {
     background-color: lightblue;
@@ -22,4 +26,14 @@ span {
     color: red;
     font-weight: 900;;
 }
+
+/* 
+
+You can use all of the below:
+fr: sets the column or row to a fraction of the available space.
+auto: sets the columns or rows to the width or height of its content automatically
+%: adjusts the column or row to the percent width of its container 
+
+*/
+
 /* Grid 1 Section: End; */
