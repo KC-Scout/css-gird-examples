@@ -8,7 +8,6 @@ h2 {
 .container {
     display: grid;
     grid-template-columns: 100px 100px;
-    grid-template-rows: 200px 200px;
 }
 .d1 {
     background-color: lightblue;
@@ -27,6 +26,8 @@ span {
     font-weight: 900;;
 }
 
+/* Grid 1 Section: End; */
+
 /* 
 
 You can use all of the below:
@@ -36,4 +37,32 @@ auto: sets the columns or rows to the width or height of its content automatical
 
 */
 
-/* Grid 1 Section: End; */
+/* Grid 2 Section: Start */
+.container-2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+}
+.d5 {
+    background-color: purple;
+}
+.d6 {
+    background-color: royalblue;
+}
+/* Grid 2 Section: End */
+
+/* Grid 3Section: Start */
+.container-3{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+}
+.container-3 > .d1 {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Grid 3 Section: End */
+
