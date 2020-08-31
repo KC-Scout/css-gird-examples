@@ -54,15 +54,18 @@ auto: sets the columns or rows to the width or height of its content automatical
 /* Grid 3Section: Start */
 .container-3{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: auto 60% 1fr;
     grid-template-rows: 200px 200px;
 }
-.container-3 > .d1 {
+.container-3 > .cell {
     display: flex;
     border: 1px solid black;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
+
+
 /* Grid 3 Section: End */
 

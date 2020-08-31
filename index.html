@@ -36,14 +36,18 @@
 
     <h2>Grid 3</h2>
     <p>Description: Using Different Grid Units</p>
+    <p><strong>auto:</strong> sets the column or row to the width or height of its contents automatically.</p>
+    <p><strong>%: </strong>adjusts the column or row to the percent width of its container.</p>
+    <p><strong>fr:</strong> sets the column or row to a fraction of the available space.</p>
     <!-- Grid 3 Section: Start -->
     <div class="container-3">
-        <div class="d1"><div>Hello</div></div>
-        <div class="d2">2</div>
-        <div class="d3">3</div>
-        <div class="d4">4</div>
-        <div class="d5">1</div>
-        <div class="d6">2</div>
+        <div class="cell d1"><div>grid-template-columns: <span>auto</span> 60% 1fr;</div><div>grid-template-rows: 200px 200px;</div></div> 
+        <!-- How do I get this to stack?  -->
+        <div class="cell d2"><div>grid-template-columns: auto <span>60%</span> 1fr;</div></div>
+        <div class="cell d3"><div>grid-template-columns: auto 60% <span>1fr;</span></div></div>
+        <div class="cell d4"></div>
+        <div class="cell d5"></div>
+        <div class="cell d6"></div>
     </div>
     <!-- Grid 3 Section: End -->
 
