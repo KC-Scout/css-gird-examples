@@ -69,3 +69,18 @@ auto: sets the columns or rows to the width or height of its content automatical
 
 /* Grid 3 Section: End */
 
+/* Grid 4 Section: Start */
+
+.container-4 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+
+
+
+
+/* Grid 4 Section: End */
