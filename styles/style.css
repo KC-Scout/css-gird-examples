@@ -84,3 +84,10 @@ auto: sets the columns or rows to the width or height of its content automatical
 
 
 /* Grid 4 Section: End */
+
+/* Grid 5 Section: Start */
+.d6 {
+    grid-column: 2 / 5;
+}
+/* Grid 5 Section: End */
+
